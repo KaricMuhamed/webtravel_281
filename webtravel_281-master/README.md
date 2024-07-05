@@ -1,20 +1,39 @@
-Projketni zadatak web programiranje
+Projekat: Web Programiranje
 
-Projekat se satoji iz dva dijela
-Client koji predstavlja frontend koji je rađen koristeću React framework i
-Server koji prestavlja bekend koji je rađen koristeći Node.js
-Baza podataka koja je korištena je MongoDB
-Dakle projekat je izgrađen koristeći MERN stack
+Opis Projekta:
+Projekat se sastoji iz dva dijela:
+1. Client - Frontend koji je rađen koristeći React framework.
+2. Server - Backend koji je rađen koristeći Node.js.
 
-Za pokretanje projekta potrebno je otvoriti webtravel_252 folder u Visual Studio Code
-Te u jednom terminalu locirati se u folder server
-Tada treba bizvršiti komandu "npm i" ili "npm install" kako bi se instalirali svi potrebni dependency i paketi
-Kada se instalacija završi treba pokrenuti komandu npm start i tada bi nam se trebala spojiti baza podataka i dići server na port 3001
+Baza podataka koja je korištena je MongoDB, što znači da je projekat izgrađen koristeći MERN stack (MongoDB, Express.js, React, Node.js).
 
-Sličan proces je i za frontend
-Lociramo se u folder client i ponavljamo postupak instalacije dependency-a uz pomoć komande "npm i" ili "npm install"
-Te nakon instalacije pokrećemo komandu npm start koja pokreće naš frontend na portu 3000
-http://localhost:3000 bi se trebao automatski pokrenuti, ali ako ne, dovoljno je ukucati ovaj navedeni path u browser
-Baza podataka se spaja na moj MongoDB Atlas te je podešena da se svi mogu spojiti tako da t ne bi trebalo biti problema
+-Uputstvo za Pokretanje Projekta
 
-Za sve sugestije i pitanja molim Vas da se javite. Hvala!
+1. **Otvori Projekat u Visual Studio Code:**
+   - Otvori `webtravel_281` folder u Visual Studio Code.
+
+2. **Pokretanje Servera:**
+   - U Visual Studio Code, otvori terminal i navigiraj se u folder `server`:
+   
+     cd server
+   - Instaliraj sve potrebne dependency i pakete:
+     npm install
+     ili
+     npm i
+   - Nakon završetka instalacije, pokreni server:
+     npm start
+   - Ova komanda će spojiti bazu podataka i podići server na portu `3001`.
+
+3. Pokretanje Frontenda:
+   - Otvori novi terminal u Visual Studio Code i navigiraj se u folder `client`:
+     cd client
+   - Instaliraj sve potrebne dependency i pakete:
+     npm install
+     ili
+     npm i
+   - Nakon završetka instalacije, pokreni frontend:
+     npm start
+   - Aplikacija bi trebala automatski da se pokrene u browseru na adresi `http://localhost:3000`. Ako se ne pokrene automatski, otvori navedeni URL ručno u browseru.
+
+Napomena:
+Baza podataka je povezana sa mojim MongoDB Atlas nalogom i podešena je tako da svi mogu pristupiti. Ne bi trebalo biti problema sa povezivanjem na bazu podataka.
